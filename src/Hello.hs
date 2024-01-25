@@ -1,0 +1,14 @@
+import React from 'react'
+
+
+export default function Hello(){
+  return (
+    <div>
+        <p>Length and appearance do not determine whether a section in a paper is a 
+            paragraph. For instance, in some styles of writing, particularly journalistic 
+            styles, a paragraph can be just one sentence long.
+
+        </p>
+    </div>
+  )
+}
