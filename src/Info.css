@@ -1,0 +1,8 @@
+.Info{
+    background-color: rgb(61, 127, 139);
+    padding: 1rem;
+    align-items: center;
+    border: 3px;
+    list-style-type: none;
+    text-align: center;
+}

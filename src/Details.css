@@ -1,0 +1,9 @@
+.detail{
+    
+    background-color: rgb(221, 255, 0);
+    padding: 1rem;
+    border-radius: 5px;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+

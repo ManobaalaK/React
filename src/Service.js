@@ -5,12 +5,12 @@ export default function Service() {
   return (
     <div>
         <div className='service'>
-        <div className='service-item'>01</div>
-        <div className='service-item'>02</div>
-        <div className='service-item'>03</div>
-        <div className='service-item'>04</div>
-        <div className='service-item'>05</div>
-        <div className='service-item'>06</div>
+        <div className='service-item'>Monday</div>
+        <div className='service-item'>Tuesday</div>
+        <div className='service-item'>wednesday</div>
+        <div className='service-item'>Thursday</div>
+        <div className='service-item'>Friday</div>
+        <div className='service-item'>Saturday</div>
 
     </div>
     </div>

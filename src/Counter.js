@@ -1,13 +1,33 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState } from 'react';
+import "./Counter.css";
+
+
 
 export default function Counter() {
-    const[count,setCount]=useState(0);
+        const [count, setCount]= useState(0);
+        
+        const incrementCount = () => {
+            setCount(count+2);
+        };
+        const decrementCount = () => {
+            setCount(count-1);
+        };
+        const resetCountset = () => {
+            setCount(0);
+        };
   return (
-    
     <div>
-        <p>{count}</p>
-        <button onClick={()=> setCount(count*25)}>Click</button>
+        <div className='container'>
+            <div className='counter-box'>
+                <h1>Counter : {count}</h1>
+                <div className='counter1'>
+            <button onClick={incrementCount}>Increment</button>
+            <button onClick={decrementCount}>Decrement</button>
+            <button onClick={resetCountset}>Reset</button>
+               </div>
+            </div>
+        </div>
     </div>
   )
 }
